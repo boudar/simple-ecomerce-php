@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* background-color: #265e5a; */
+    background: linear-gradient(to right, #2ab4a9 , #2147A3  );
+    /* background-image: url(../designelogin&register/group-3.svg); */
+}
+
+.for{
+   text-align: center;
+   background-color: #ffffff;
+   width: 300px;
+   height: 490px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+   border-radius: 10px;
+   padding-top: 20px;
+   padding-right: 35px;
+}
+
+.in{
+    margin-top: 10px;    
+    width: 220px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    padding-left: 36px;
+    outline: none;
+}
+
+.in:focus{
+    border-bottom: #18a56f 3px solid;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    /* margin-left: 10px; */
+}
+
+.btn{
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #18a56f ;
+    color: white;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    border: 3px solid #18a56f;
+}
+.log{
+    border-bottom: 2px solid #18a56f;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 100px;
+}
+.key{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 29px;
+    top: 5px;
+}
+
+
+ .log:hover{
+    border-bottom: 2px solid #18a56f ;
+    width: 90px;
+    /* margin-left: auto; */
+    margin-right: auto;
+    transition: 0.5s;
+    color: #18a56f ;
+ }
+
+
+
+
+ .reg{
+
+        border-bottom: 2px solid #18a56f;
+        width: 50px;
+        margin-right: auto;
+        transition: 0.5s;
+        margin-left: 89px;
+        position: relative;
+        bottom: 100px;
+ }
+
+ .reg:hover{
+    border-bottom: 2px solid #18a56f ;
+    width: 130px;
+    margin-left: 70px;
+    margin-right: auto;
+    transition: 0.5s;
+    color: #18a56f ;
+ }
+
+
+ .btn:hover{
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #13865a ;
+    color: white;
+    margin-bottom: 30px;
+    border: 3px solid #13865a;
+}
+
+.btn:active{
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #6e1708 ;
+    color: white;
+    margin-bottom: 30px;
+    border: 3px solid #6e1708 ;
+}
+
+.logo{
+    width: 180px;
+    height: 110px;
+    position: relative;
+    bottom: 80px;
+    /* box-sizing: border-box; */
+    /* margin-bottom: 120px; */
+}
+
+form{
+    position: relative;
+    bottom: 90px;
+}
+
+span{
+    font-size: 14px;
+}
+
+.for2{
+    text-align: center;
+    background-color: #ffffff;
+    width: 300px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-right: 35px;
+ }
+
+ .log::first-letter{
+     color: #13865a ;
+ }
+ .reg::first-letter{
+    color: #13865a ;
+}
+
+.error{
+    position: relative;
+    bottom: 99px;
+    background-color: #ccdbd2;
+    color: #49a300;
+    width: 335px;
+    height: 49px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.error2{
+    position: relative;
+    bottom: 99px;
+    background-color: #ffe4d2;
+    color: #ff3c00;
+    width: 335px;
+    height: 49px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.loader{
+    width: 300px;
+    height: 310px;
+    position: relative;
+    bottom: 530px;
+    left: 10px;
+    /* box-sizing: border-box; */
+    /* margin-bottom: 120px; */
+}
+
+
+.loggedout{
+    position: relative;
+    bottom: 99px;
+    background-color: #d1b7ac;
+    color: #a30000;
+    width: 335px;
+    height: 49px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.gohome{
+    width: 30px;
+    margin-left: 10px;
+}
